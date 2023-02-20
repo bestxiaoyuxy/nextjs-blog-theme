@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : '久欧朋&&忆光';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'Powered By <a href="https://www.eray.cc">忆光</a>';
+    : 'Powered By [忆光](https://www.eray.cc)</a>';
 
   return {
     name,
